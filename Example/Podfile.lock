@@ -1,0 +1,16 @@
+PODS:
+  - huhsxModulA (0.1.0)
+
+DEPENDENCIES:
+  - huhsxModulA (from `../`)
+
+EXTERNAL SOURCES:
+  huhsxModulA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  huhsxModulA: 9abf26217dee7c969dd28b6ec86d23242d394f96
+
+PODFILE CHECKSUM: 8880bdcdcd55b23a97bb2df4652e4ccf0eb8dcc2
+
+COCOAPODS: 1.5.0.beta.1
