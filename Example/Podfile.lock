@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (18)
-  - huhsxModulA (2):
+  - huhsxModulA (4):
     - CTMediator
     - huhsxModulCategoryB
   - huhsxModulCategoryB (2):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
-  huhsxModulA: 4a33791daa4d73e606038dc8dccabb721e002e7d
+  huhsxModulA: 20d61f9a29e20d2e40bafb2bf14305e66dbe4ee1
   huhsxModulCategoryB: 2b5c82bae1b1fb67be6a5b8b30404d8cc5f3fb2b
 
 PODFILE CHECKSUM: 25b12d25c67aedb791db96bd6919657377797728
