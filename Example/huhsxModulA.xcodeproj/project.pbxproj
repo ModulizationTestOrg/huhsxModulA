@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A571264E6855A19AF644C74 /* Pods_huhsxModulA_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFB424781B0390AD00A36ED /* Pods_huhsxModulA_Example.framework */; };
-		45B38720CC2AF5684DA9B87F /* Pods_huhsxModulA_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30C908D9C8FA08D2593D295 /* Pods_huhsxModulA_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -58,15 +57,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		656307897CCA05F428BB8798 /* huhsxModulA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = huhsxModulA.podspec; path = ../huhsxModulA.podspec; sourceTree = "<group>"; };
+		656307897CCA05F428BB8798 /* huhsxModulA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = huhsxModulA.podspec; path = ../huhsxModulA.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E534722FCA90818CBFD2876 /* Pods-huhsxModulA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huhsxModulA_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF07689C9EEA87ACAF17CAB /* Pods-huhsxModulA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huhsxModulA_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-huhsxModulA_Tests/Pods-huhsxModulA_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5AC2F9EB678547EAB320954 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C88E37117DE2B980CCC5D586 /* Pods-huhsxModulA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huhsxModulA_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-huhsxModulA_Tests/Pods-huhsxModulA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AC2F9EB678547EAB320954 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F30C908D9C8FA08D2593D295 /* Pods_huhsxModulA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6804A2A5C2D596CAF040BA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6804A2A5C2D596CAF040BA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				45B38720CC2AF5684DA9B87F /* Pods_huhsxModulA_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +96,6 @@
 			children = (
 				8E534722FCA90818CBFD2876 /* Pods-huhsxModulA_Example.debug.xcconfig */,
 				417F3B45F363CC480E5C8958 /* Pods-huhsxModulA_Example.release.xcconfig */,
-				C88E37117DE2B980CCC5D586 /* Pods-huhsxModulA_Tests.debug.xcconfig */,
-				AFF07689C9EEA87ACAF17CAB /* Pods-huhsxModulA_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,7 +216,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "huhsxModulA_Tests" */;
 			buildPhases = (
-				6D91756694995E7F066FD0A2 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -243,10 +236,13 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HHSX;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = huhaosanxiong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XJHRVPW773;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -301,11 +297,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/huhsxModulA/huhsxModulA.framework",
+				"${BUILT_PRODUCTS_DIR}/huhsxModulCategoryB/huhsxModulCategoryB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/huhsxModulA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/huhsxModulCategoryB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,24 +324,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-huhsxModulA_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6D91756694995E7F066FD0A2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-huhsxModulA_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,6 +467,7 @@
 			baseConfigurationReference = 8E534722FCA90818CBFD2876 /* Pods-huhsxModulA_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJHRVPW773;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "huhsxModulA/huhsxModulA-Prefix.pch";
 				INFOPLIST_FILE = "huhsxModulA/huhsxModulA-Info.plist";
@@ -500,6 +483,7 @@
 			baseConfigurationReference = 417F3B45F363CC480E5C8958 /* Pods-huhsxModulA_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJHRVPW773;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "huhsxModulA/huhsxModulA-Prefix.pch";
 				INFOPLIST_FILE = "huhsxModulA/huhsxModulA-Info.plist";
@@ -512,7 +496,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C88E37117DE2B980CCC5D586 /* Pods-huhsxModulA_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -536,7 +519,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFF07689C9EEA87ACAF17CAB /* Pods-huhsxModulA_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

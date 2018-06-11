@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ModulAViewController.h"
 
 FOUNDATION_EXPORT double huhsxModulAVersionNumber;
 FOUNDATION_EXPORT const unsigned char huhsxModulAVersionString[];

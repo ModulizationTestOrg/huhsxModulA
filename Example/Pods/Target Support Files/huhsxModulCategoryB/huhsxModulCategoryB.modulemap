@@ -1,0 +1,6 @@
+framework module huhsxModulCategoryB {
+  umbrella header "huhsxModulCategoryB-umbrella.h"
+
+  export *
+  module * { export * }
+}

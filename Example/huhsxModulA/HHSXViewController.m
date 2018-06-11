@@ -7,6 +7,7 @@
 //
 
 #import "HHSXViewController.h"
+#import "ModulAViewController.h"
 
 @interface HHSXViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+}
+- (IBAction)buttionAction:(id)sender {
+    ModulAViewController *vc = [[ModulAViewController alloc]init];
+    vc.showPicture = YES;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

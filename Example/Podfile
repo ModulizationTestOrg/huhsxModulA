@@ -1,11 +1,9 @@
+source 'https://github.com/ModulizationTestOrg/huhsxSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'huhsxModulA_Example' do
   pod 'huhsxModulA', :path => '../'
 
-  target 'huhsxModulA_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

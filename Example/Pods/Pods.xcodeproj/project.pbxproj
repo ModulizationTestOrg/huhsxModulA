@@ -7,302 +7,460 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EBC6F6ED5F022A674CA5B7036ED79B /* huhsxModulA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BBAC44A73890AFAD2AD8B51B6E8239 /* huhsxModulA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07CCECBABBE8FA9A361EEAA9FBE53CEF /* huhsxModulA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FFAFA7FFA0F16B1BD7C58A3EE2F2E /* huhsxModulA-dummy.m */; };
-		1DFB7B04BDEBCA25A4FB5BEFF88C4D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		200335FBF64D74FAB80C43BD9E9E6F8D /* Pods-huhsxModulA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C198142AC55AFFA91278C8474E055 /* Pods-huhsxModulA_Tests-dummy.m */; };
-		2FC1D4B17B47F16EC6FBFD07A0ED75EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		37D058DDFA3D29CC7EB608AEDA8A8079 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FA19A0D901691A0D40E69FE092178D /* ReplaceMe.m */; };
-		67FF5DB69625A4225A22131E2F620B80 /* Pods-huhsxModulA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E5866ED843CF7D8C862A956F9DE6A6 /* Pods-huhsxModulA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C3806D3B1723F4F1858B27E009D3F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BAD982766F436DA18256B52954C9C218 /* wallhaven-578223.png in Sources */ = {isa = PBXBuildFile; fileRef = C3C2B8E7E3962B3D20ED2983F0B4745E /* wallhaven-578223.png */; };
-		D0D5FC4374054BC6393F958C7607D648 /* Pods-huhsxModulA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F85743CD9104523053BBA62B3DAACB /* Pods-huhsxModulA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9A8CAEA90655F792BE0FD4E3DAF5FD6 /* Pods-huhsxModulA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 609E878AC8F92DB0F23B510547B86299 /* Pods-huhsxModulA_Example-dummy.m */; };
+		00824FA75BF911EC60FB68E7B890ACB7 /* Pods-huhsxModulA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C07FEF3A39CEA26212D5EF97D84359C /* Pods-huhsxModulA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F024CA37E34DEEA8D1CAC6FCB3DF00 /* Pods-huhsxModulA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7072436780075C947F5F9080FCF00141 /* Pods-huhsxModulA_Example-dummy.m */; };
+		1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1900BB56BDC2E7FF40C7BA1595C3F811 /* CTMediator.m */; };
+		2F152E1F7ECD6B5561FD532E558E6661 /* huhsxModulCategoryB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CF3C269DADBA410101C02D5142B373 /* huhsxModulCategoryB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318DBCE264027DF5A35CB213CE0B4DB2 /* overwatch-genji-mecha-armored.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C20E56D13F71617A6EBBE80011D2546C /* overwatch-genji-mecha-armored.jpg */; };
+		3E957F61264622471693A10AAA6D4944 /* wallhaven-578223.png in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D2BA465BD70274E006A16D0A1661B /* wallhaven-578223.png */; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5A6C92F8DE31C21BC19A1023A667CE /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42E0DD351E59FF7DFC34A62F7F41F78C /* huhsxModulCategoryB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAAB9F8F99C70F0326D6DB01B5F4B38 /* huhsxModulCategoryB.framework */; };
+		4578713AB769B871F35F068E1C4193AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */; };
+		4BBD04966991EC78C9D4F95B1BA35C68 /* huhsxModulCategoryB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3595C320E9425E54DDCDDCEB8895B /* huhsxModulCategoryB-dummy.m */; };
+		6850FB24F61EF4958583069639E4C5E2 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9024E9ECB5A6401D261AF72048F2B1FF /* CTMediator.framework */; };
+		69D5AF013E2E7CFAC383CC43FF7E7A52 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 674266657485DC56F8874DE017B0857D /* ReplaceMe.m */; };
+		854FA0D56D159236C0591CF4732C28BB /* ModulAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F76D89CB67CE3956AF2E1D377AAA46 /* ModulAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9139820C5E1865586B964B280187D44F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BC75CF894E658FC6A507E7B6526EA642 /* ReplaceMe.m */; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = C1344D470DE8528A0BF9ED3ED984F5D5 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */; };
+		AAECD7E07AB583887321DEA57C55F4AB /* ModulAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BAB91F4582A4702375AEAB16BCF2DB /* ModulAViewController.m */; };
+		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B2432327DA05ABAB84864B65F77539 /* UIKit.framework */; };
+		B8401E8C1E72618335F9C7BD88E36D82 /* huhsxModulA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F9191C953EE060DC1481FDDC2EE74F /* huhsxModulA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28B54F9D0CFB17312A150F8E39E87EB /* CTMediator+ModulB.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2FEDACB583CE236AF532A444C9780 /* CTMediator+ModulB.m */; };
+		D931FF7A4FE6F8CE720F0F6E179A8BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */; };
+		D9C2A2A0BFBC9E3F3C524E2666AD70B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */; };
+		DD79D3A5EF87B655FFED47261F32413A /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9024E9ECB5A6401D261AF72048F2B1FF /* CTMediator.framework */; };
+		E3A9D0957D22E11A5144E869B551740A /* huhsxModulA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB01AB1D63C8CA6A656CDE4B9B593E /* huhsxModulA-dummy.m */; };
+		E8FB93B5D9397BA6387D7099D31A6098 /* CTMediator+ModulB.h in Headers */ = {isa = PBXBuildFile; fileRef = B871D73C5D6A5C471C086AB79CC71B11 /* CTMediator+ModulB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1591A001BA4A543A02DFA7554922F19 /* CTMediator-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EF44059658C9C4B9BD7D96822F596F9 /* PBXContainerItemProxy */ = {
+		4E59522617DDFAA23B148CE565126CC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8DB1037CBA1239CB673FA77BDA55A60;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		71BCF0043E0092A4B79F982282EFA66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5B2BE41BE7BBE4685D85EBFFF9698F;
+			remoteInfo = huhsxModulCategoryB;
+		};
+		8D026DA0BD41CAA1F57D23D9CF9CC671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		975CF2894B11FDF7ED732FB144802CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		A4490A5F0A225C28A8408459845BECF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0594BF62A67C9854DA124F0E7117E2A3;
 			remoteInfo = huhsxModulA;
+		};
+		DC3B12436B4F11EFB3AABAAFC070FA69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5B2BE41BE7BBE4685D85EBFFF9698F;
+			remoteInfo = huhsxModulCategoryB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		143CA987D72A111AF618877634A538AF /* Pods-huhsxModulA_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Example-resources.sh"; sourceTree = "<group>"; };
-		15BBAC44A73890AFAD2AD8B51B6E8239 /* huhsxModulA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulA-umbrella.h"; sourceTree = "<group>"; };
-		1D6C198142AC55AFFA91278C8474E055 /* Pods-huhsxModulA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huhsxModulA_Tests-dummy.m"; sourceTree = "<group>"; };
-		2CC4D31EFADECDBFB7F4836EECE4675B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30F70D8E9CAE4DA21BC24BD76C4B3799 /* Pods-huhsxModulA_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Tests-resources.sh"; sourceTree = "<group>"; };
-		3C46E5210DE3F9DC1F35F90EE9C5A87F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F6D9EDFB96554E68629D43546186148 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		40E46BDF82790FD79D4B2D8F3F4AD9FC /* Pods-huhsxModulA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huhsxModulA_Example.modulemap"; sourceTree = "<group>"; };
-		536A749D8E147FCAA2862488B9DD385A /* Pods_huhsxModulA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53F85743CD9104523053BBA62B3DAACB /* Pods-huhsxModulA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huhsxModulA_Example-umbrella.h"; sourceTree = "<group>"; };
-		5A5D332F1469C9CAF915E6C4FF7D2EDB /* huhsxModulA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = huhsxModulA.modulemap; sourceTree = "<group>"; };
-		5B854C957A12859B7192F7F7673838AD /* huhsxModulA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = huhsxModulA.podspec; sourceTree = "<group>"; };
-		5EEF8E14A01538D4CD7062EF663B7A0F /* Pods-huhsxModulA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huhsxModulA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		60201131211BFC8521B0A4AEA04BA83C /* Pods-huhsxModulA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huhsxModulA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		609E878AC8F92DB0F23B510547B86299 /* Pods-huhsxModulA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huhsxModulA_Example-dummy.m"; sourceTree = "<group>"; };
-		62AC37CC80797169139FAB950905F732 /* Pods_huhsxModulA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6DBA5159BC4B9F997F1B32CC3BE5D3CF /* huhsxModulA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = huhsxModulA.xcconfig; sourceTree = "<group>"; };
-		7C16176B20F407A51C4ED9B2E07C53D1 /* Pods-huhsxModulA_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		893FFAFA7FFA0F16B1BD7C58A3EE2F2E /* huhsxModulA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "huhsxModulA-dummy.m"; sourceTree = "<group>"; };
-		8D169271525CD1F190F06ED2E34E349F /* huhsxModulA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = huhsxModulA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF898005938D6DB809FA03635FD7266 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		93A0ED052574FEA8380A501F4AECC7F6 /* Pods-huhsxModulA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		962DE9F7D9E35C149003C1121180A34A /* Pods-huhsxModulA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Example-frameworks.sh"; sourceTree = "<group>"; };
-		97E5866ED843CF7D8C862A956F9DE6A6 /* Pods-huhsxModulA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huhsxModulA_Tests-umbrella.h"; sourceTree = "<group>"; };
-		999F9D570EFA4CE52704A5856BED2A28 /* Pods-huhsxModulA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A01BA0FC27D0E77309E6C76C717CACF4 /* Pods-huhsxModulA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huhsxModulA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A3FD95EE716E6624F1FEA42154C50A09 /* Pods-huhsxModulA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B1AFFC3ECE2457E9E3DF447ACB773E9B /* Pods-huhsxModulA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C3C2B8E7E3962B3D20ED2983F0B4745E /* wallhaven-578223.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wallhaven-578223.png"; path = "huhsxModulA/Classes/wallhaven-578223.png"; sourceTree = "<group>"; };
-		CD615E6EB337F101F9F9E17521FA4287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0FA19A0D901691A0D40E69FE092178D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = huhsxModulA/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E994ED751B1377A998876E8DDF8F11AC /* Pods-huhsxModulA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huhsxModulA_Tests.modulemap"; sourceTree = "<group>"; };
-		F2D06A2496A69DD784888A867117F0C5 /* huhsxModulA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulA-prefix.pch"; sourceTree = "<group>"; };
-		F38D6393F941B3D178D451999EDF3281 /* Pods-huhsxModulA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huhsxModulA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03FCF660CACF22C4B31D8BD42441A1F5 /* huhsxModulCategoryB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = huhsxModulCategoryB.modulemap; sourceTree = "<group>"; };
+		0647F676430E32CBABB4B8EF5CC879D7 /* huhsxModulCategoryB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulCategoryB-prefix.pch"; sourceTree = "<group>"; };
+		09C3595C320E9425E54DDCDDCEB8895B /* huhsxModulCategoryB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "huhsxModulCategoryB-dummy.m"; sourceTree = "<group>"; };
+		0CC7EED790A6B789473968E06BFBA01C /* Pods-huhsxModulA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1900BB56BDC2E7FF40C7BA1595C3F811 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		1CDCAE522539B08DE46C31175FF230F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9D2BA465BD70274E006A16D0A1661B /* wallhaven-578223.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wallhaven-578223.png"; path = "huhsxModulA/Classes/wallhaven-578223.png"; sourceTree = "<group>"; };
+		2A12162CF0D23D33DAA245658F7AC9AF /* huhsxModulA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = huhsxModulA.modulemap; sourceTree = "<group>"; };
+		304808074BDF7C8CE5E5DECA3483ABE8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF1BCD92A07026063B3A1D2CE3AFA8E /* Pods_huhsxModulA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_huhsxModulA_Example.framework; path = "Pods-huhsxModulA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509DA78816C424EAF62097DDEF6F4C74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		50BAB91F4582A4702375AEAB16BCF2DB /* ModulAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModulAViewController.m; path = huhsxModulA/Classes/ModulAViewController.m; sourceTree = "<group>"; };
+		54A320662C6AE40F36C2A9CD790E9EB1 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		5C07FEF3A39CEA26212D5EF97D84359C /* Pods-huhsxModulA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huhsxModulA_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C5A6C92F8DE31C21BC19A1023A667CE /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		61685910BE274141616E0CF4CE2E99D6 /* huhsxModulCategoryB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = huhsxModulCategoryB.xcconfig; sourceTree = "<group>"; };
+		674266657485DC56F8874DE017B0857D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = huhsxModulCategoryB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		69BB01AB1D63C8CA6A656CDE4B9B593E /* huhsxModulA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "huhsxModulA-dummy.m"; sourceTree = "<group>"; };
+		6D362FC5A2CF748AD01B44E651D7A7C5 /* Pods-huhsxModulA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huhsxModulA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7072436780075C947F5F9080FCF00141 /* Pods-huhsxModulA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huhsxModulA_Example-dummy.m"; sourceTree = "<group>"; };
+		719B1972F4DCC8E6E11AA8E9360FBC19 /* huhsxModulA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = huhsxModulA.xcconfig; sourceTree = "<group>"; };
+		79CF3C269DADBA410101C02D5142B373 /* huhsxModulCategoryB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulCategoryB-umbrella.h"; sourceTree = "<group>"; };
+		7AAAB9F8F99C70F0326D6DB01B5F4B38 /* huhsxModulCategoryB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = huhsxModulCategoryB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C3926624284B123FABFFC1665135AC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B631CA3747CB3AE6A4EB119B185D5CD /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		8DF589593F0286F85BFEC3A942691249 /* huhsxModulA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = huhsxModulA.framework; path = huhsxModulA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F08692EA4FC4DBC4C6F8BC12C3762AF /* huhsxModulA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = huhsxModulA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9024E9ECB5A6401D261AF72048F2B1FF /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D9C8C418594E36C7292641B1C40A36 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		94B2432327DA05ABAB84864B65F77539 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A7F76D89CB67CE3956AF2E1D377AAA46 /* ModulAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModulAViewController.h; path = huhsxModulA/Classes/ModulAViewController.h; sourceTree = "<group>"; };
+		B871D73C5D6A5C471C086AB79CC71B11 /* CTMediator+ModulB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+ModulB.h"; path = "huhsxModulCategoryB/Classes/CTMediator+ModulB.h"; sourceTree = "<group>"; };
+		B99EB1C2E23C3B8D32BC10F5210F6184 /* Pods-huhsxModulA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huhsxModulA_Example.modulemap"; sourceTree = "<group>"; };
+		BA5F5BF49395B8B5740C307E0EA6FFAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC75CF894E658FC6A507E7B6526EA642 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = huhsxModulA/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C1344D470DE8528A0BF9ED3ED984F5D5 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		C20E56D13F71617A6EBBE80011D2546C /* overwatch-genji-mecha-armored.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = "overwatch-genji-mecha-armored.jpg"; path = "huhsxModulCategoryB/Classes/overwatch-genji-mecha-armored.jpg"; sourceTree = "<group>"; };
+		C2E2FEDACB583CE236AF532A444C9780 /* CTMediator+ModulB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+ModulB.m"; path = "huhsxModulCategoryB/Classes/CTMediator+ModulB.m"; sourceTree = "<group>"; };
+		C4E8A7D71EB67CD720DD0B55ED47FB29 /* Pods-huhsxModulA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huhsxModulA_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4F9191C953EE060DC1481FDDC2EE74F /* huhsxModulA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulA-umbrella.h"; sourceTree = "<group>"; };
+		C5DCABD3D95898DD913A95861BBCB65E /* huhsxModulA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "huhsxModulA-prefix.pch"; sourceTree = "<group>"; };
+		CBBACF1F6CAB2732C9042B006C394426 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D8814D76A977EB7E9826A3FAFFF18195 /* huhsxModulCategoryB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = huhsxModulCategoryB.framework; path = huhsxModulCategoryB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEF50A538F2A20E687BD35E3ED69A6F /* Pods-huhsxModulA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F1591A001BA4A543A02DFA7554922F19 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		F53F9AD1E4664D7634B779A08CF31B2F /* Pods-huhsxModulA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huhsxModulA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F882E9D0012A11A2E81AE3374856403F /* Pods-huhsxModulA_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huhsxModulA_Example-resources.sh"; sourceTree = "<group>"; };
+		FF7B884D12289CA1D0D99E6E5D685B38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04FBAE9D6BE2D2C4BEA2F4EFEDE4398A /* Frameworks */ = {
+		5D827C878D116FD97BA434F0B8800A95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC1D4B17B47F16EC6FBFD07A0ED75EF /* Foundation.framework in Frameworks */,
+				D9C2A2A0BFBC9E3F3C524E2666AD70B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8926115721A6B5C9C47BF19112FF04F6 /* Frameworks */ = {
+		721FDA73289D0720E292998FE17EFCBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DFB7B04BDEBCA25A4FB5BEFF88C4D00 /* Foundation.framework in Frameworks */,
+				DD79D3A5EF87B655FFED47261F32413A /* CTMediator.framework in Frameworks */,
+				4578713AB769B871F35F068E1C4193AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF3EE4EB6E190951F6CEEDF1D1FD34D9 /* Frameworks */ = {
+		73BAF9D71F70E00B598029C192255AAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3806D3B1723F4F1858B27E009D3F7E /* Foundation.framework in Frameworks */,
+				6850FB24F61EF4958583069639E4C5E2 /* CTMediator.framework in Frameworks */,
+				D931FF7A4FE6F8CE720F0F6E179A8BBB /* Foundation.framework in Frameworks */,
+				42E0DD351E59FF7DFC34A62F7F41F78C /* huhsxModulCategoryB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */,
+				B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A765665AA79173D592C2D3518891810 /* Targets Support Files */ = {
+		008A967F4CC47F585049C550B6DB31CA /* Pods-huhsxModulA_Example */ = {
 			isa = PBXGroup;
 			children = (
-				3714D7A629549CED315264943EA6D512 /* Pods-huhsxModulA_Example */,
-				421A21113CCF53478F7D5E2091FC52E7 /* Pods-huhsxModulA_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3714D7A629549CED315264943EA6D512 /* Pods-huhsxModulA_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3C46E5210DE3F9DC1F35F90EE9C5A87F /* Info.plist */,
-				40E46BDF82790FD79D4B2D8F3F4AD9FC /* Pods-huhsxModulA_Example.modulemap */,
-				F38D6393F941B3D178D451999EDF3281 /* Pods-huhsxModulA_Example-acknowledgements.markdown */,
-				5EEF8E14A01538D4CD7062EF663B7A0F /* Pods-huhsxModulA_Example-acknowledgements.plist */,
-				609E878AC8F92DB0F23B510547B86299 /* Pods-huhsxModulA_Example-dummy.m */,
-				962DE9F7D9E35C149003C1121180A34A /* Pods-huhsxModulA_Example-frameworks.sh */,
-				143CA987D72A111AF618877634A538AF /* Pods-huhsxModulA_Example-resources.sh */,
-				53F85743CD9104523053BBA62B3DAACB /* Pods-huhsxModulA_Example-umbrella.h */,
-				93A0ED052574FEA8380A501F4AECC7F6 /* Pods-huhsxModulA_Example.debug.xcconfig */,
-				A3FD95EE716E6624F1FEA42154C50A09 /* Pods-huhsxModulA_Example.release.xcconfig */,
+				FF7B884D12289CA1D0D99E6E5D685B38 /* Info.plist */,
+				B99EB1C2E23C3B8D32BC10F5210F6184 /* Pods-huhsxModulA_Example.modulemap */,
+				F53F9AD1E4664D7634B779A08CF31B2F /* Pods-huhsxModulA_Example-acknowledgements.markdown */,
+				6D362FC5A2CF748AD01B44E651D7A7C5 /* Pods-huhsxModulA_Example-acknowledgements.plist */,
+				7072436780075C947F5F9080FCF00141 /* Pods-huhsxModulA_Example-dummy.m */,
+				DAEF50A538F2A20E687BD35E3ED69A6F /* Pods-huhsxModulA_Example-frameworks.sh */,
+				F882E9D0012A11A2E81AE3374856403F /* Pods-huhsxModulA_Example-resources.sh */,
+				5C07FEF3A39CEA26212D5EF97D84359C /* Pods-huhsxModulA_Example-umbrella.h */,
+				0CC7EED790A6B789473968E06BFBA01C /* Pods-huhsxModulA_Example.debug.xcconfig */,
+				C4E8A7D71EB67CD720DD0B55ED47FB29 /* Pods-huhsxModulA_Example.release.xcconfig */,
 			);
 			name = "Pods-huhsxModulA_Example";
 			path = "Target Support Files/Pods-huhsxModulA_Example";
 			sourceTree = "<group>";
 		};
-		421A21113CCF53478F7D5E2091FC52E7 /* Pods-huhsxModulA_Tests */ = {
+		18304A09C6B55182548975D6225985FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CC4D31EFADECDBFB7F4836EECE4675B /* Info.plist */,
-				E994ED751B1377A998876E8DDF8F11AC /* Pods-huhsxModulA_Tests.modulemap */,
-				A01BA0FC27D0E77309E6C76C717CACF4 /* Pods-huhsxModulA_Tests-acknowledgements.markdown */,
-				60201131211BFC8521B0A4AEA04BA83C /* Pods-huhsxModulA_Tests-acknowledgements.plist */,
-				1D6C198142AC55AFFA91278C8474E055 /* Pods-huhsxModulA_Tests-dummy.m */,
-				7C16176B20F407A51C4ED9B2E07C53D1 /* Pods-huhsxModulA_Tests-frameworks.sh */,
-				30F70D8E9CAE4DA21BC24BD76C4B3799 /* Pods-huhsxModulA_Tests-resources.sh */,
-				97E5866ED843CF7D8C862A956F9DE6A6 /* Pods-huhsxModulA_Tests-umbrella.h */,
-				999F9D570EFA4CE52704A5856BED2A28 /* Pods-huhsxModulA_Tests.debug.xcconfig */,
-				B1AFFC3ECE2457E9E3DF447ACB773E9B /* Pods-huhsxModulA_Tests.release.xcconfig */,
+				A6896DD249DBC4F8DD5AFCC956259CA2 /* CTMediator */,
+				F4A1B7E1AC214EDEE087807A30EFBF96 /* huhsxModulCategoryB */,
 			);
-			name = "Pods-huhsxModulA_Tests";
-			path = "Target Support Files/Pods-huhsxModulA_Tests";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3478EA2E26B999CC1798583DA9390E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304808074BDF7C8CE5E5DECA3483ABE8 /* CTMediator.framework */,
+				8DF589593F0286F85BFEC3A942691249 /* huhsxModulA.framework */,
+				D8814D76A977EB7E9826A3FAFFF18195 /* huhsxModulCategoryB.framework */,
+				3DF1BCD92A07026063B3A1D2CE3AFA8E /* Pods_huhsxModulA_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4503E8B8EECFBD4770972CA1C432BC69 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A10645BB0BC72A15458B39D1C15D7F3C /* Foundation.framework */,
+				94B2432327DA05ABAB84864B65F77539 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46CDE102A381362F5E8E393A146AA145 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A12162CF0D23D33DAA245658F7AC9AF /* huhsxModulA.modulemap */,
+				719B1972F4DCC8E6E11AA8E9360FBC19 /* huhsxModulA.xcconfig */,
+				69BB01AB1D63C8CA6A656CDE4B9B593E /* huhsxModulA-dummy.m */,
+				C5DCABD3D95898DD913A95861BBCB65E /* huhsxModulA-prefix.pch */,
+				C4F9191C953EE060DC1481FDDC2EE74F /* huhsxModulA-umbrella.h */,
+				1CDCAE522539B08DE46C31175FF230F4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/huhsxModulA";
+			sourceTree = "<group>";
+		};
+		5F6B5EE5121345BBC1735A887A401472 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03FCF660CACF22C4B31D8BD42441A1F5 /* huhsxModulCategoryB.modulemap */,
+				61685910BE274141616E0CF4CE2E99D6 /* huhsxModulCategoryB.xcconfig */,
+				09C3595C320E9425E54DDCDDCEB8895B /* huhsxModulCategoryB-dummy.m */,
+				0647F676430E32CBABB4B8EF5CC879D7 /* huhsxModulCategoryB-prefix.pch */,
+				79CF3C269DADBA410101C02D5142B373 /* huhsxModulCategoryB-umbrella.h */,
+				BA5F5BF49395B8B5740C307E0EA6FFAC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/huhsxModulCategoryB";
+			sourceTree = "<group>";
+		};
+		62BC60332EE0DF002D9551CC227FFD0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F08692EA4FC4DBC4C6F8BC12C3762AF /* huhsxModulA.podspec */,
+				509DA78816C424EAF62097DDEF6F4C74 /* LICENSE */,
+				CBBACF1F6CAB2732C9042B006C394426 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		64BD5548220CF1BB0B8A2A3B5C1BDAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9024E9ECB5A6401D261AF72048F2B1FF /* CTMediator.framework */,
+				7AAAB9F8F99C70F0326D6DB01B5F4B38 /* huhsxModulCategoryB.framework */,
+				4503E8B8EECFBD4770972CA1C432BC69 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8AB944A9575949F00F18FEA256D97519 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D5EDE357F518FAECD2EFB2408A9D446E /* Products */,
-				0A765665AA79173D592C2D3518891810 /* Targets Support Files */,
+				E54F9F2C103279534B1045C33F912349 /* Development Pods */,
+				64BD5548220CF1BB0B8A2A3B5C1BDAF4 /* Frameworks */,
+				18304A09C6B55182548975D6225985FB /* Pods */,
+				3478EA2E26B999CC1798583DA9390E72 /* Products */,
+				F6137F1807821D2A042AB7C2156798C0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8AB944A9575949F00F18FEA256D97519 /* Development Pods */ = {
+		A6896DD249DBC4F8DD5AFCC956259CA2 /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				FEC10A39CF2DE24FA0C59F1989E96E99 /* huhsxModulA */,
+				C1344D470DE8528A0BF9ED3ED984F5D5 /* CTMediator.h */,
+				1900BB56BDC2E7FF40C7BA1595C3F811 /* CTMediator.m */,
+				E93311E54FC12154D14E1B017461E420 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = CTMediator;
+			path = CTMediator;
 			sourceTree = "<group>";
 		};
-		8EB3E81D2008BE7124EA2FC1BCA5C490 /* Pod */ = {
+		A8A668602D87EFA5B9B34CEC89A70BEE /* huhsxModulA */ = {
 			isa = PBXGroup;
 			children = (
-				5B854C957A12859B7192F7F7673838AD /* huhsxModulA.podspec */,
-				3F6D9EDFB96554E68629D43546186148 /* LICENSE */,
-				8FF898005938D6DB809FA03635FD7266 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A8F872489A9F6CA42168438396C85AF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A5D332F1469C9CAF915E6C4FF7D2EDB /* huhsxModulA.modulemap */,
-				6DBA5159BC4B9F997F1B32CC3BE5D3CF /* huhsxModulA.xcconfig */,
-				893FFAFA7FFA0F16B1BD7C58A3EE2F2E /* huhsxModulA-dummy.m */,
-				F2D06A2496A69DD784888A867117F0C5 /* huhsxModulA-prefix.pch */,
-				15BBAC44A73890AFAD2AD8B51B6E8239 /* huhsxModulA-umbrella.h */,
-				CD615E6EB337F101F9F9E17521FA4287 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/huhsxModulA";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D5EDE357F518FAECD2EFB2408A9D446E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D169271525CD1F190F06ED2E34E349F /* huhsxModulA.framework */,
-				536A749D8E147FCAA2862488B9DD385A /* Pods_huhsxModulA_Example.framework */,
-				62AC37CC80797169139FAB950905F732 /* Pods_huhsxModulA_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FEC10A39CF2DE24FA0C59F1989E96E99 /* huhsxModulA */ = {
-			isa = PBXGroup;
-			children = (
-				D0FA19A0D901691A0D40E69FE092178D /* ReplaceMe.m */,
-				C3C2B8E7E3962B3D20ED2983F0B4745E /* wallhaven-578223.png */,
-				8EB3E81D2008BE7124EA2FC1BCA5C490 /* Pod */,
-				A8F872489A9F6CA42168438396C85AF9 /* Support Files */,
+				A7F76D89CB67CE3956AF2E1D377AAA46 /* ModulAViewController.h */,
+				50BAB91F4582A4702375AEAB16BCF2DB /* ModulAViewController.m */,
+				BC75CF894E658FC6A507E7B6526EA642 /* ReplaceMe.m */,
+				1F9D2BA465BD70274E006A16D0A1661B /* wallhaven-578223.png */,
+				62BC60332EE0DF002D9551CC227FFD0B /* Pod */,
+				46CDE102A381362F5E8E393A146AA145 /* Support Files */,
 			);
 			name = huhsxModulA;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E54F9F2C103279534B1045C33F912349 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8A668602D87EFA5B9B34CEC89A70BEE /* huhsxModulA */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E93311E54FC12154D14E1B017461E420 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A320662C6AE40F36C2A9CD790E9EB1 /* CTMediator.modulemap */,
+				93D9C8C418594E36C7292641B1C40A36 /* CTMediator.xcconfig */,
+				F1591A001BA4A543A02DFA7554922F19 /* CTMediator-dummy.m */,
+				8B631CA3747CB3AE6A4EB119B185D5CD /* CTMediator-prefix.pch */,
+				5C5A6C92F8DE31C21BC19A1023A667CE /* CTMediator-umbrella.h */,
+				7C3926624284B123FABFFC1665135AC3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		F4A1B7E1AC214EDEE087807A30EFBF96 /* huhsxModulCategoryB */ = {
+			isa = PBXGroup;
+			children = (
+				B871D73C5D6A5C471C086AB79CC71B11 /* CTMediator+ModulB.h */,
+				C2E2FEDACB583CE236AF532A444C9780 /* CTMediator+ModulB.m */,
+				C20E56D13F71617A6EBBE80011D2546C /* overwatch-genji-mecha-armored.jpg */,
+				674266657485DC56F8874DE017B0857D /* ReplaceMe.m */,
+				5F6B5EE5121345BBC1735A887A401472 /* Support Files */,
+			);
+			name = huhsxModulCategoryB;
+			path = huhsxModulCategoryB;
+			sourceTree = "<group>";
+		};
+		F6137F1807821D2A042AB7C2156798C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				008A967F4CC47F585049C550B6DB31CA /* Pods-huhsxModulA_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		378087BB49428FAB3A36345692FA7ED0 /* Headers */ = {
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0D5FC4374054BC6393F958C7607D648 /* Pods-huhsxModulA_Example-umbrella.h in Headers */,
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B539B7360B6D9292E7DBFDD35A4BB18 /* Headers */ = {
+		01BC4AFFECD7B45E0260140D1DDF7A09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67FF5DB69625A4225A22131E2F620B80 /* Pods-huhsxModulA_Tests-umbrella.h in Headers */,
+				E8FB93B5D9397BA6387D7099D31A6098 /* CTMediator+ModulB.h in Headers */,
+				2F152E1F7ECD6B5561FD532E558E6661 /* huhsxModulCategoryB-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E550F8AB4F93857A5542BDBA451F3D01 /* Headers */ = {
+		70747DC7D9F3F0C978F09BBB3FFB2E50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EBC6F6ED5F022A674CA5B7036ED79B /* huhsxModulA-umbrella.h in Headers */,
+				00824FA75BF911EC60FB68E7B890ACB7 /* Pods-huhsxModulA_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF56BD67834E30142D117E24980C3B6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8401E8C1E72618335F9C7BD88E36D82 /* huhsxModulA-umbrella.h in Headers */,
+				854FA0D56D159236C0591CF4732C28BB /* ModulAViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		99EFD779292B5389E28A1FD430726884 /* Pods-huhsxModulA_Example */ = {
+		0594BF62A67C9854DA124F0E7117E2A3 /* huhsxModulA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFB5F0FB14A3B6028E4ED09F9D538916 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Example" */;
+			buildConfigurationList = FBEF074CE6F91A2377297BA47CDE7A06 /* Build configuration list for PBXNativeTarget "huhsxModulA" */;
 			buildPhases = (
-				D7DE3F8479C721D384F5394F9F2C2616 /* Sources */,
-				AF3EE4EB6E190951F6CEEDF1D1FD34D9 /* Frameworks */,
-				378087BB49428FAB3A36345692FA7ED0 /* Headers */,
+				C6D6CE19906AF9B1D81A34F530DF0E97 /* Sources */,
+				73BAF9D71F70E00B598029C192255AAC /* Frameworks */,
+				FF56BD67834E30142D117E24980C3B6E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37EC476DEA0D403174EC539340BEFD0C /* PBXTargetDependency */,
-			);
-			name = "Pods-huhsxModulA_Example";
-			productName = "Pods-huhsxModulA_Example";
-			productReference = 536A749D8E147FCAA2862488B9DD385A /* Pods_huhsxModulA_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C8DB1037CBA1239CB673FA77BDA55A60 /* huhsxModulA */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AF9367A765417E2B5DAFDC571FD1B8C /* Build configuration list for PBXNativeTarget "huhsxModulA" */;
-			buildPhases = (
-				57D8F9683BE4E2A6E80492C414EAF8BA /* Sources */,
-				04FBAE9D6BE2D2C4BEA2F4EFEDE4398A /* Frameworks */,
-				E550F8AB4F93857A5542BDBA451F3D01 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				04C058D7EB4879887F4B9667FACADF2A /* PBXTargetDependency */,
+				1E85331A2C4356DAC8CA3B0D370BFE9A /* PBXTargetDependency */,
 			);
 			name = huhsxModulA;
 			productName = huhsxModulA;
-			productReference = 8D169271525CD1F190F06ED2E34E349F /* huhsxModulA.framework */;
+			productReference = 8DF589593F0286F85BFEC3A942691249 /* huhsxModulA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F3BA0B39F70FE11D06CE84ED7BCA6297 /* Pods-huhsxModulA_Tests */ = {
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C16254CB41E2C8B07A0D061F4AE60DA1 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Tests" */;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
 			buildPhases = (
-				612C4579786781899AF89D4A19C36423 /* Sources */,
-				8926115721A6B5C9C47BF19112FF04F6 /* Frameworks */,
-				8B539B7360B6D9292E7DBFDD35A4BB18 /* Headers */,
+				9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-huhsxModulA_Tests";
-			productName = "Pods-huhsxModulA_Tests";
-			productReference = 62AC37CC80797169139FAB950905F732 /* Pods_huhsxModulA_Tests.framework */;
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 304808074BDF7C8CE5E5DECA3483ABE8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC5B2BE41BE7BBE4685D85EBFFF9698F /* huhsxModulCategoryB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4974CB08BE79230056888CF30EED8C8 /* Build configuration list for PBXNativeTarget "huhsxModulCategoryB" */;
+			buildPhases = (
+				550093B8C02F82C0A0E10EF544A455CC /* Sources */,
+				721FDA73289D0720E292998FE17EFCBF /* Frameworks */,
+				01BC4AFFECD7B45E0260140D1DDF7A09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0248C6F5DF0801B71606593A81926E82 /* PBXTargetDependency */,
+			);
+			name = huhsxModulCategoryB;
+			productName = huhsxModulCategoryB;
+			productReference = D8814D76A977EB7E9826A3FAFFF18195 /* huhsxModulCategoryB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF69DFBFDA790041076599598F7AF679 /* Pods-huhsxModulA_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603D9036ED0BAE23CB0184BEBF0266E5 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Example" */;
+			buildPhases = (
+				B7BB996F6739975DB6E91080F2BC5C91 /* Sources */,
+				5D827C878D116FD97BA434F0B8800A95 /* Frameworks */,
+				70747DC7D9F3F0C978F09BBB3FFB2E50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB623D88338B77EFE5BA83184BC9971 /* PBXTargetDependency */,
+				6B6475C399E19BF5D12419D391841E6A /* PBXTargetDependency */,
+				FDC26EBDEF371583FDE0554643D97791 /* PBXTargetDependency */,
+			);
+			name = "Pods-huhsxModulA_Example";
+			productName = "Pods-huhsxModulA_Example";
+			productReference = 3DF1BCD92A07026063B3A1D2CE3AFA8E /* Pods_huhsxModulA_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,59 +480,103 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D5EDE357F518FAECD2EFB2408A9D446E /* Products */;
+			productRefGroup = 3478EA2E26B999CC1798583DA9390E72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8DB1037CBA1239CB673FA77BDA55A60 /* huhsxModulA */,
-				99EFD779292B5389E28A1FD430726884 /* Pods-huhsxModulA_Example */,
-				F3BA0B39F70FE11D06CE84ED7BCA6297 /* Pods-huhsxModulA_Tests */,
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				0594BF62A67C9854DA124F0E7117E2A3 /* huhsxModulA */,
+				BC5B2BE41BE7BBE4685D85EBFFF9698F /* huhsxModulCategoryB */,
+				BF69DFBFDA790041076599598F7AF679 /* Pods-huhsxModulA_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		57D8F9683BE4E2A6E80492C414EAF8BA /* Sources */ = {
+		550093B8C02F82C0A0E10EF544A455CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CCECBABBE8FA9A361EEAA9FBE53CEF /* huhsxModulA-dummy.m in Sources */,
-				37D058DDFA3D29CC7EB608AEDA8A8079 /* ReplaceMe.m in Sources */,
-				BAD982766F436DA18256B52954C9C218 /* wallhaven-578223.png in Sources */,
+				D28B54F9D0CFB17312A150F8E39E87EB /* CTMediator+ModulB.m in Sources */,
+				4BBD04966991EC78C9D4F95B1BA35C68 /* huhsxModulCategoryB-dummy.m in Sources */,
+				318DBCE264027DF5A35CB213CE0B4DB2 /* overwatch-genji-mecha-armored.jpg in Sources */,
+				69D5AF013E2E7CFAC383CC43FF7E7A52 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		612C4579786781899AF89D4A19C36423 /* Sources */ = {
+		9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200335FBF64D74FAB80C43BD9E9E6F8D /* Pods-huhsxModulA_Tests-dummy.m in Sources */,
+				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
+				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7DE3F8479C721D384F5394F9F2C2616 /* Sources */ = {
+		B7BB996F6739975DB6E91080F2BC5C91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A8CAEA90655F792BE0FD4E3DAF5FD6 /* Pods-huhsxModulA_Example-dummy.m in Sources */,
+				01F024CA37E34DEEA8D1CAC6FCB3DF00 /* Pods-huhsxModulA_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D6CE19906AF9B1D81A34F530DF0E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A9D0957D22E11A5144E869B551740A /* huhsxModulA-dummy.m in Sources */,
+				AAECD7E07AB583887321DEA57C55F4AB /* ModulAViewController.m in Sources */,
+				9139820C5E1865586B964B280187D44F /* ReplaceMe.m in Sources */,
+				3E957F61264622471693A10AAA6D4944 /* wallhaven-578223.png in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37EC476DEA0D403174EC539340BEFD0C /* PBXTargetDependency */ = {
+		0248C6F5DF0801B71606593A81926E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 975CF2894B11FDF7ED732FB144802CF5 /* PBXContainerItemProxy */;
+		};
+		04C058D7EB4879887F4B9667FACADF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 8D026DA0BD41CAA1F57D23D9CF9CC671 /* PBXContainerItemProxy */;
+		};
+		1E85331A2C4356DAC8CA3B0D370BFE9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = huhsxModulCategoryB;
+			target = BC5B2BE41BE7BBE4685D85EBFFF9698F /* huhsxModulCategoryB */;
+			targetProxy = DC3B12436B4F11EFB3AABAAFC070FA69 /* PBXContainerItemProxy */;
+		};
+		6B6475C399E19BF5D12419D391841E6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = huhsxModulA;
-			target = C8DB1037CBA1239CB673FA77BDA55A60 /* huhsxModulA */;
-			targetProxy = 6EF44059658C9C4B9BD7D96822F596F9 /* PBXContainerItemProxy */;
+			target = 0594BF62A67C9854DA124F0E7117E2A3 /* huhsxModulA */;
+			targetProxy = A4490A5F0A225C28A8408459845BECF4 /* PBXContainerItemProxy */;
+		};
+		8EB623D88338B77EFE5BA83184BC9971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 4E59522617DDFAA23B148CE565126CC6 /* PBXContainerItemProxy */;
+		};
+		FDC26EBDEF371583FDE0554643D97791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = huhsxModulCategoryB;
+			target = BC5B2BE41BE7BBE4685D85EBFFF9698F /* huhsxModulCategoryB */;
+			targetProxy = 71BCF0043E0092A4B79F982282EFA66C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30C2E61FDD4C4BE5A846CC87495BEB59 /* Release */ = {
+		032413CB849CB1DF6329994BACAA6698 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DBA5159BC4B9F997F1B32CC3BE5D3CF /* huhsxModulA.xcconfig */;
+			baseConfigurationReference = 93D9C8C418594E36C7292641B1C40A36 /* CTMediator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -385,45 +587,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulA/huhsxModulA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/huhsxModulA/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/huhsxModulA/huhsxModulA.modulemap";
-				PRODUCT_MODULE_NAME = huhsxModulA;
-				PRODUCT_NAME = huhsxModulA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		38C9790D05776466FDBBDA3928B80BC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DBA5159BC4B9F997F1B32CC3BE5D3CF /* huhsxModulA.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulA/huhsxModulA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/huhsxModulA/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/huhsxModulA/huhsxModulA.modulemap";
-				PRODUCT_MODULE_NAME = huhsxModulA;
-				PRODUCT_NAME = huhsxModulA;
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -433,9 +604,9 @@
 			};
 			name = Debug;
 		};
-		3B9361D513045ADEF6F411388368DAD7 /* Debug */ = {
+		2C13EDF2FD734C1FEA934A357E98C3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93A0ED052574FEA8380A501F4AECC7F6 /* Pods-huhsxModulA_Example.debug.xcconfig */;
+			baseConfigurationReference = 0CC7EED790A6B789473968E06BFBA01C /* Pods-huhsxModulA_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -466,11 +637,10 @@
 			};
 			name = Debug;
 		};
-		758BC5CA2764568873AA7ACCF277DC94 /* Release */ = {
+		769B5E0E051423D8FB88E7D8E879A356 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1AFFC3ECE2457E9E3DF447ACB773E9B /* Pods-huhsxModulA_Tests.release.xcconfig */;
+			baseConfigurationReference = 93D9C8C418594E36C7292641B1C40A36 /* CTMediator.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -480,19 +650,48 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-huhsxModulA_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-huhsxModulA_Tests/Pods-huhsxModulA_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84B1F224815F85C509622DBD23EE94C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61685910BE274141616E0CF4CE2E99D6 /* huhsxModulCategoryB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulCategoryB/huhsxModulCategoryB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huhsxModulCategoryB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/huhsxModulCategoryB/huhsxModulCategoryB.modulemap";
+				PRODUCT_MODULE_NAME = huhsxModulCategoryB;
+				PRODUCT_NAME = huhsxModulCategoryB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,6 +762,36 @@
 			};
 			name = Debug;
 		};
+		A8FDD7149355E5014686FB1931AAB501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61685910BE274141616E0CF4CE2E99D6 /* huhsxModulCategoryB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulCategoryB/huhsxModulCategoryB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huhsxModulCategoryB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/huhsxModulCategoryB/huhsxModulCategoryB.modulemap";
+				PRODUCT_MODULE_NAME = huhsxModulCategoryB;
+				PRODUCT_NAME = huhsxModulCategoryB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -621,9 +850,9 @@
 			};
 			name = Release;
 		};
-		F53F75BD5FDE389B5FC8991D816082FB /* Release */ = {
+		D9C8721E6F64137CB0C7EC3C054901D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3FD95EE716E6624F1FEA42154C50A09 /* Pods-huhsxModulA_Example.release.xcconfig */;
+			baseConfigurationReference = C4E8A7D71EB67CD720DD0B55ED47FB29 /* Pods-huhsxModulA_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -655,11 +884,10 @@
 			};
 			name = Release;
 		};
-		FA7426EEFD13A952840229567BD3DE99 /* Debug */ = {
+		E54E666B523340077E2E983D54E49F44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 999F9D570EFA4CE52704A5856BED2A28 /* Pods-huhsxModulA_Tests.debug.xcconfig */;
+			baseConfigurationReference = 719B1972F4DCC8E6E11AA8E9360FBC19 /* huhsxModulA.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,19 +897,48 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-huhsxModulA_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulA/huhsxModulA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huhsxModulA/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-huhsxModulA_Tests/Pods-huhsxModulA_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/huhsxModulA/huhsxModulA.modulemap";
+				PRODUCT_MODULE_NAME = huhsxModulA;
+				PRODUCT_NAME = huhsxModulA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4F71690E8427F34A41580CFBBCAC62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719B1972F4DCC8E6E11AA8E9360FBC19 /* huhsxModulA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/huhsxModulA/huhsxModulA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/huhsxModulA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/huhsxModulA/huhsxModulA.modulemap";
+				PRODUCT_MODULE_NAME = huhsxModulA;
+				PRODUCT_NAME = huhsxModulA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -700,29 +957,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AF9367A765417E2B5DAFDC571FD1B8C /* Build configuration list for PBXNativeTarget "huhsxModulA" */ = {
+		603D9036ED0BAE23CB0184BEBF0266E5 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38C9790D05776466FDBBDA3928B80BC8 /* Debug */,
-				30C2E61FDD4C4BE5A846CC87495BEB59 /* Release */,
+				2C13EDF2FD734C1FEA934A357E98C3B9 /* Debug */,
+				D9C8721E6F64137CB0C7EC3C054901D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C16254CB41E2C8B07A0D061F4AE60DA1 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Tests" */ = {
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA7426EEFD13A952840229567BD3DE99 /* Debug */,
-				758BC5CA2764568873AA7ACCF277DC94 /* Release */,
+				032413CB849CB1DF6329994BACAA6698 /* Debug */,
+				769B5E0E051423D8FB88E7D8E879A356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFB5F0FB14A3B6028E4ED09F9D538916 /* Build configuration list for PBXNativeTarget "Pods-huhsxModulA_Example" */ = {
+		D4974CB08BE79230056888CF30EED8C8 /* Build configuration list for PBXNativeTarget "huhsxModulCategoryB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B9361D513045ADEF6F411388368DAD7 /* Debug */,
-				F53F75BD5FDE389B5FC8991D816082FB /* Release */,
+				A8FDD7149355E5014686FB1931AAB501 /* Debug */,
+				84B1F224815F85C509622DBD23EE94C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEF074CE6F91A2377297BA47CDE7A06 /* Build configuration list for PBXNativeTarget "huhsxModulA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F71690E8427F34A41580CFBBCAC62C /* Debug */,
+				E54E666B523340077E2E983D54E49F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
