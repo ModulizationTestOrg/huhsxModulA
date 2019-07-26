@@ -297,7 +297,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/huhsxModulA/huhsxModulA.framework",
 				"${BUILT_PRODUCTS_DIR}/huhsxModulCategoryB/huhsxModulCategoryB.framework",
@@ -310,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huhsxModulA_Example/Pods-huhsxModulA_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		379B2502B71DCC7825EC178C /* [CP] Check Pods Manifest.lock */ = {
