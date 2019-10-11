@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "19295C1B64E227231D5EDCFCBA0655AE"
+               BlueprintIdentifier = "CC5FE7E40D1CB5BE71FB22EB0C07E93F"
                BuildableName = "huhsxModulCategoryB.framework"
                BlueprintName = "huhsxModulCategoryB"
                ReferencedContainer = "container:Pods.xcodeproj">

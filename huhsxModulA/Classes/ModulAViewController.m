@@ -25,7 +25,7 @@
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
         NSString *path = [bundle pathForResource:@"wallhaven-578223.png"
                           ofType:nil
-                          inDirectory:nil];
+                          inDirectory:@"huhsxModulA.bundle"];
         
         _image = [UIImage imageWithContentsOfFile:path];
         UIImageView *imageView = [[UIImageView alloc] initWithImage:_image];
